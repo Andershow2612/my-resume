@@ -57,11 +57,15 @@ export const translations = {
   skill2_1: { pt: 'Automação de Testes', en: 'Test Automation' },
   skillsCat3: { pt: 'Outros Conhecimentos', en: 'Other Knowledge' },
   skill3_1: { pt: 'Banco de dados relacional (Intermediário)', en: 'Relational Databases (Intermediate)' },
+  skill3_2: { pt: 'Ferramentas de IA (Antigravity)', en: 'AI Tools (Antigravity)' },
+  skill3_3: { pt: 'Scrum/Agile', en: 'Scrum/Agile' },
 
   // Projects
   projTitleSection: { pt: 'Projetos em Destaque', en: 'Featured Projects' },
   proj1Title: { pt: 'Projeto em Destaque', en: 'Featured Project' },
   proj1Desc: { pt: 'Um sistema completo desenvolvido para promover cursos de idiomas. Conta com uma arquitetura escalável no backend utilizando GoLang com gin e gorm e uma interface moderna para os usuários em react. A galeria abaixo ilustra as principais telas e o fluxo da aplicação.', en: 'A complete system developed to promote language courses. It features a scalable backend architecture using GoLang with gin and gorm, and a modern user interface in React. The gallery below illustrates the main screens and the application flow.' },
+  proj2Title: { pt: 'QA Scenario Generator', en: 'QA Scenario Generator' },
+  proj2Desc: { pt: 'Aplicação web full-stack que gera cenários de teste a partir de cards do Jira usando IA generativa. O QA cola a URL da issue, escolhe o provedor de IA (Google Gemini ou Anthropic Claude) e o tipo de demanda, revisa e edita os cenários gerados e publica tudo de volta no Jira como uma Suíte de Teste com seus subtestes.\n\nDestaques: integração com o Jira que retoma o envio de onde parou sem duplicar issues, controle de cota de IA, login com GitHub OAuth e token do Jira criptografado (AES-256-GCM).', en: 'Full-stack web application that generates test scenarios from Jira cards using generative AI. The QA pastes the issue URL, chooses the AI provider (Google Gemini or Anthropic Claude) and the demand type, reviews and edits the generated scenarios, and publishes everything back to Jira as a Test Suite with its subtests.\n\nHighlights: Jira integration that resumes sending from where it left off without duplicating issues, AI quota control, GitHub OAuth login, and AES-256-GCM encrypted Jira token.' },
 
   // Footer
   footerDesc: { pt: 'Desenvolvedor Backend JR focando em construir soluções escaláveis e de alta qualidade.', en: 'Junior Backend Developer focusing on building high-quality, scalable solutions.' },

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Mail, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import profilePic from '../assets/profilePiccc.png';
 
 export default function Hero() {
   const { t } = useLanguage();
@@ -56,7 +57,7 @@ export default function Hero() {
 
             <div className="relative w-full h-full rounded-full overflow-hidden bg-white dark:bg-slate-800 border-4 border-slate-100 dark:border-slate-900 flex items-center justify-center">
               <img
-                src="./src/assets/profilePiccc.png"
+                src={profilePic}
                 alt="Anderson Profile"
                 className="w-full h-full object-cover"
               />

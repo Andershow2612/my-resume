@@ -15,7 +15,7 @@ export default function Skills() {
     },
     {
       title: t('skillsCat3'),
-      skills: [t('skill3_1'), 'Ferramentas de IA (Antigravity)', 'Git/GitHub', 'Scrum/Agile']
+      skills: [t('skill3_1'), t('skill3_2'), 'Claude Code', 'Git/GitHub', 'Scrum/Agile']
     }
   ];
 
@@ -40,7 +40,7 @@ export default function Skills() {
       <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-sky-500/10 dark:bg-cyan-500/5 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -53,7 +53,7 @@ export default function Skills() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, idx) => (
-            <motion.div 
+            <motion.div
               key={idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -65,8 +65,8 @@ export default function Skills() {
                 <span className="w-2 h-8 bg-sky-500 dark:bg-green-500 rounded-full mr-3"></span>
                 {category.title}
               </h3>
-              
-              <motion.div 
+
+              <motion.div
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"
